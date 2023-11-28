@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.sp-img {
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+}
+.sp-list {
+  list-style: none;
+  margin-right: 50px;
+}
+.sp-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.sp-brand {
+  font-size: 14px;
+  color: #616e7c;
+  margin: 0px;
+}
+.sp-price {
+  font-weight: bold;
+  color: #1e293b;
+}
+.sp-rating-div {
+  background-color: #3b82f6;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 25px;
+  width: 55px;
+  border-radius: 4px;
+  justify-content: space-around;
+}
+.sp-star {
+  height: 15px;
+  width: 15px;
+}
+.sp-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+  .sp-list {
+    margin-bottom: 20px;
+  }
+}
